@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_Home" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Home" />
+        <item android:id="@+id/nav_Alarm" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="알림" />
+        <item android:id="@+id/nav_Basket" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="장바구니" />
+        <item android:id="@+id/nav_Buymanage" android:icon="@android:drawable/ic_menu_manage"
+            android:title="구매관리" />
+        <item android:id="@+id/nav_Buyrequestlist" android:icon="@android:drawable/ic_menu_share"
+            android:title="공동구매 신청목록" />
+        <item android:id="@+id/nav_Setting" android:icon="@android:drawable/ic_menu_send"
+            android:title="설정" />
+
+    </group>
+</menu>
